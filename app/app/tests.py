@@ -8,11 +8,9 @@ class CalcTest(SimpleTestCase):
     def test_add_numbers(self):
         """adding number together"""
         res = calc.add(5,6)
-        
         self.assertEqual(res,11)
     
     def test_substract(self):
         """substracting numbers"""
         res=calc.sub(10,2)
-        
         self.assertEqual(res,8)
